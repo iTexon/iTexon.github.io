@@ -84,8 +84,13 @@
 }
 
 .footer ul{
-    padding:0; 
+    padding:20; 
     list-style-type:none; 
     display: inline-block;
     vertical-align: top;
   }
+
+.socials img{
+    height: 50px;
+    width: 50px;
+}
