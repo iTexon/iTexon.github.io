@@ -2,15 +2,17 @@
     font-size: 10px;
     font-family: "Montserrat", sans-serif;
     letter-spacing: -0.05em;
-    color: black;
+    color: #101010;
     background-color: white;
 }
 
 .header {
     width: 100%;
-    height: 80px;
+    left: 0;
+    top: 0;
     display: block;
     background-color: #101010;
+    position: fixed;
 }
 
 .inner_header {
@@ -32,7 +34,7 @@
     height: 100%;
     display: table-cell;
     vertical-align: middle;
-    /*font-family: LEGG TIL FONTEN HER!*/
+    font-family: 'Montserrat';
     font-size: 32px;
     font-weight: 200;
 }
@@ -41,18 +43,27 @@
     font-weight: 800;
 }
 
+.logo_container img {
+    height: 80px;
+    width: auto;
+    vertical-align: middle;
+}
+
 .navigation {
     float: right;
     height: 100%;
-    vertical-align: middle;
 }
 
 .navigation a {
     height: 100%;
     display: table;
     float: left;
-    padding: 0px 20px;
-    vertical-align: middle;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a li:hover{
+    color: grey;
 }
 
 .navigation a:last-child {
@@ -64,7 +75,7 @@
     vertical-align: middle;
     height: 100%;
     color: white;
-    /*font-family: LEGG TIL FONTEN HER!*/
+    font-family: 'Montserrat';
     font-size: 16px;
 }
 
@@ -76,6 +87,7 @@
     background-color: #101010;
     color: white;
     text-align: center;
+    font-family: 'Montserrat';
 }
 
 .footer a{
@@ -87,7 +99,11 @@
     list-style-type:none; 
     display: inline-block;
     vertical-align: top;
-  }
+}
+
+.footer a li:hover{
+    color: grey;
+}
 
 .socials img{
     height: 50px;
