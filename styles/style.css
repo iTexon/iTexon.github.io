@@ -95,6 +95,10 @@
     color: inherit;
 }
 
+.footer a:hover{
+    color: grey;
+}
+
 .footer ul{
     padding:20; 
     list-style-type:none; 
