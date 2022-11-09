@@ -1,6 +1,6 @@
 .html {
     font-size: 10px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: -0.05em;
     color: #101010;
     background-color: white;
@@ -12,6 +12,14 @@
     top: 0;
     display: block;
     background-color: #101010;
+    position: fixed;
+}
+
+.main_header {
+    width: 50%;
+    top: 50;
+    display: block;
+    margin: auto;
     position: fixed;
 }
 
@@ -34,7 +42,7 @@
     height: 100%;
     display: table-cell;
     vertical-align: middle;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     font-size: 32px;
     font-weight: 200;
 }
@@ -76,7 +84,7 @@
     vertical-align: middle;
     height: 100%;
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     font-size: 16px;
 }
 
@@ -88,7 +96,7 @@
     background-color: #101010;
     color: white;
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
 }
 
 .footer a{
