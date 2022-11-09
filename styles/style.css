@@ -41,6 +41,7 @@
 
 .logo_container h1 span {
     font-weight: 800;
+    color: grey;
 }
 
 .logo_container img {
@@ -62,7 +63,7 @@
     text-decoration: none;
 }
 
-.navigation a li:hover{
+.navigation a li:hover,a.active {
     color: grey;
 }
 
