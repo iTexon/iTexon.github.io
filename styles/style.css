@@ -1,6 +1,6 @@
 .html {
     font-size: 10px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     letter-spacing: -0.05em;
     color: #101010;
     background-color: white;
@@ -42,7 +42,7 @@
     height: 100%;
     display: table-cell;
     vertical-align: middle;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-size: 32px;
     font-weight: 200;
 }
@@ -96,7 +96,7 @@
     background-color: #101010;
     color: white;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
 }
 
 .footer a{
