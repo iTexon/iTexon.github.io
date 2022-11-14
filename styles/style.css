@@ -15,14 +15,6 @@
     position: fixed;
 }
 
-.main_header {
-    width: 50%;
-    top: 50;
-    display: block;
-    margin: auto;
-    position: fixed;
-}
-
 .inner_header {
     width: 90%;
     height: 100%;
@@ -71,7 +63,7 @@
     text-decoration: none;
 }
 
-.navigation a li:hover,a.active {
+.navigation a li:hover {
     color: grey;
 }
 
@@ -84,7 +76,7 @@
     vertical-align: middle;
     height: 100%;
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-size: 16px;
 }
 
@@ -103,12 +95,8 @@
     color: inherit;
 }
 
-.footer a:hover{
-    color: grey;
-}
-
 .footer ul{
-    padding:20px; 
+    padding:20; 
     list-style-type:none; 
     display: inline-block;
     vertical-align: top;
