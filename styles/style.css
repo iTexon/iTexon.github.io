@@ -1,12 +1,13 @@
-.html {
-    font-size: 10px;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: -0.05em;
-    color: #101010;
-    background-color: #101010;
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }   
 
 body {
+    font-family: montserrat;
     width: auto;
     position: relative;
     margin: 0;
@@ -18,78 +19,101 @@ body {
     background-color: #101010;
 }
 
-.header {
+nav {
+    height: 80px;
     width: 100%;
-    left: 0;
-    top: 0;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: fixed;
+    background:rgba(0, 0, 0, 0.8)
 }
 
-.inner_header {
-    width: 90%;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-    background-color: #101010;
-}
-
-.logo_container {
-    height: 100%;
-    display: table;
-    float: left;
-}
-
-.logo_container h1 {
+label.logo {
     color: white;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'Montserrat';
     font-size: 32px;
-    font-weight: 200;
+    line-height: 80px;
+    padding: 0 20px;
+    font-weight:200;
 }
 
-.logo_container h1 span {
+label.logo span {
     font-weight: 800;
     color: grey;
 }
 
-.logo_container img {
+label.logo img {
     height: 80px;
     width: auto;
     vertical-align: middle;
 }
 
-.navigation {
+nav ul {
     float: right;
-    height: 100%;
+    margin-right: 20px;
 }
 
-.navigation a {
-    height: 100%;
-    display: table;
-    float: left;
-    padding: 20px;
-    text-decoration: none;
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
 
-.navigation a li:hover {
-    color: grey;
-}
-
-.navigation a:last-child {
-    padding-right: 0;
-}
-
-.navigation a li {
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
+nav ul li a {
     color: white;
-    font-family: 'Montserrat';
     font-size: 16px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    color: grey;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    label.logo {
+        font-size: 30px;
+    }
+    nav ul li a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
 }
 
 .footer {
@@ -102,6 +126,8 @@ body {
     text-align: center;
     font-family: 'Montserrat';
     position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer a{
