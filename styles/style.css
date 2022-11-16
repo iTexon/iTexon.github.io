@@ -113,3 +113,21 @@
  position: fixed;
  
 }
+
+.grid-container {
+    --gap: 16px;
+    --num-cols: 2;
+    --num-rows: 2;
+    --row-height: 300px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: inline-grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    gap: var(--gap);
+  }
+
+  .grid-item {
+    text-align: center;
+  }
