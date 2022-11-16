@@ -3,7 +3,7 @@
     font-family: "Montserrat", sans-serif;
     letter-spacing: -0.05em;
     color: #101010;
-    background-color: white;
+    background-color: #101010;
 }   
 
 body {
@@ -11,7 +11,11 @@ body {
     position: relative;
     margin: 0;
     min-height: 100%;
-    padding-bottom: 300px;
+    padding-bottom: 0px;
+    background:url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner.png?raw=true); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #101010;
 }
 
 .header {
@@ -89,7 +93,6 @@ body {
 }
 
 .footer {
-    background: #101010;
     color: white;
     left: 0;
     right: 0;
@@ -98,7 +101,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     font-family: 'Montserrat';
-    position: absolute;
+    position: fixed;
 }
 
 .footer a{
@@ -117,16 +120,6 @@ body {
     width: 50px;
 }
 
-.banner{
-    background:url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner.png?raw=true); 
-    display: block;
-    margin-top:83px;
-    margin-bottom:225px;
-    margin-left: -9px;
-    margin-rigth: -9px;
-    min-width: 1000px;
-    min-height: 700px;     
-}
 
 .grid-container {
     --gap: 16px;
@@ -146,4 +139,5 @@ body {
 .banner_text{
     text-align: center;
     color:white;
+    margin-top: 60px;
 }
