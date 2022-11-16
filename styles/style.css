@@ -111,23 +111,5 @@
  background:<img id="Banner" src="img/banner.png" alt="Banner">; 
  background-size: cover;
  position: fixed;
- 
+ margin-top:80px;
 }
-
-.grid-container {
-    --gap: 16px;
-    --num-cols: 2;
-    --num-rows: 2;
-    --row-height: 300px;
-
-    box-sizing: border-box;
-    padding: var(--gap);
-
-    display: inline-grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    gap: var(--gap);
-  }
-
-  .grid-item {
-    text-align: center;
-  }
