@@ -119,7 +119,7 @@ body {
 
 .banner{
     background:url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner.png?raw=true); 
-    background-size: cover;
+    display: block;
     margin-top:83px;
     margin-bottom:225px;
     margin-left: -9px;
