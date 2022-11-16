@@ -108,5 +108,8 @@
 }
 
 .banner{
- background:   
+ background:<img id="Banner" src="img/banner.png" alt="Banner">; 
+ background-size: cover;
+ position: fixed;
+ 
 }
