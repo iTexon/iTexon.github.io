@@ -8,7 +8,10 @@
 
 body {
     width: auto;
-    margin: 0 auto;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 300px;
 }
 
 .header {
@@ -86,14 +89,16 @@ body {
 }
 
 .footer {
-    position: fixed;
+    background: #101010;
+    color: white;
     left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
     text-align: center;
     font-family: 'Montserrat';
+    position: absolute;
 }
 
 .footer a{
@@ -113,10 +118,14 @@ body {
 }
 
 .banner{
- background:<img id="Banner" src="img/banner.png" alt="Banner">; 
- background-size: cover;
- position: fixed;
- 
+    background:url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner.png?raw=true); 
+    background-size: cover;
+    margin-top:83px;
+    margin-bottom:225px;
+    margin-left: -9px;
+    margin-rigth: -9px;
+    min-width: 1000px;
+    min-height: 700px;     
 }
 
 .grid-container {
@@ -132,8 +141,9 @@ body {
     grid-template-columns: repeat(var(--num-cols), 1fr);
     gap: var(--gap);
     
-  }
+}
 
-  .grid-item {
+.banner_text{
     text-align: center;
-  }
+    color:white;
+}
