@@ -110,6 +110,6 @@
 .banner{
  background:url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner.png?raw=true); 
  background-size: cover;
- position: fixed;
+ position: relative;
  margin-top:80px;
 }
