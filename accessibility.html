@@ -6,32 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <title>Cafezaurus</title>
   <link rel="icon" href="img/icon.png">
 </head>
 <body>
 
-    <div class="header">
+  <nav>
 
-        <div class="inner_header">
+    <input type ="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
 
-            <div class="logo_container">
-              <a href="index.html" title="Hovedside">
-                <img id="Logo" src="img/icon.png" alt="Logo"></a>
-                <h1>CAFE<span>ZAURUS</span></h1>
-            </div>
+    <label class="logo">
+        <a href="index.html" title="Hovedside">
+        <img id="Logo" src="img/icon2.png" alt="Logo"></a>
+        CAFE<span>ZAURUS</span>
+    </label>
 
-            <ul class="navigation">
-                <a href="index.html"><li>Hovedside</li></a>
-                <a href="reservasjoner.html"><li>Reservasjoner</li></a>
-                <a href="cafe.html"><li>Cafe</li></a>
-                <a href="accessibility.html"><li>Accessibility</li></a>
-                <a href="topicalPage.html"><li>Topical page</li></a>
-            </ul>
-
-        </div>
-
-    </div>
+    <ul>
+      <li><a href="index.html">Hovedside</a></li>
+      <li><a href="reservasjoner.html">Reservasjoner</a></li>
+      <li><a href="cafe.html">Cafe</a></li>
+      <li><a class="active" href="accessibility.html">Accessibility</a></li>
+      <li><a href="topicalPage.html">Topical page</a></li>
+    </ul>
+  
+  </nav>
 
     <div class="footer">
         <ul>
