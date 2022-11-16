@@ -7,7 +7,7 @@
 }   
 
 body {
-    font-family: montserrat;
+    font-family: "Montserrat";
     width: auto;
     position: relative;
     margin: 0;
@@ -124,7 +124,6 @@ a.active, a:hover {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    font-family: 'Montserrat';
     position: fixed;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -135,10 +134,10 @@ a.active, a:hover {
 }
 
 .footer ul{
-    padding:20; 
     list-style-type:none; 
     display: inline-block;
     vertical-align: top;
+    margin: 10px;
 }
 
 .socials img{
