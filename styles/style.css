@@ -136,6 +136,11 @@ body {
     
 }
 
+.grid-container img{
+    width: 600px;
+    height: 400px;
+}
+
 .banner_text{
     text-align: center;
     color:white;
