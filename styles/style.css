@@ -117,26 +117,17 @@ body{
 }
 
 .banner{
- background:<img id="Banner" src="img/banner.png" alt="Banner">; 
- background-size: cover;
- position: fixed;
- 
+    background:url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner.png?raw=true); 
+    background-size: cover;
+    margin-top:83px;
+    margin-bottom:225px;
+    margin-left: -9px;
+    margin-rigth: -9px;
+    min-width: 1000px;
+    min-height: 700px;     
 }
 
-.grid-container {
-    --gap: 16px;
-    --num-cols: 2;
-    --num-rows: 2;
-    --row-height: 300px;
-
-    box-sizing: border-box;
-    padding: var(--gap);
-
-    display: inline-grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    gap: var(--gap);
-  }
-
-  .grid-item {
+.banner_text{
     text-align: center;
-  }
+    color:white;
+}
