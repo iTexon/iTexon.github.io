@@ -129,7 +129,7 @@ a.active, a:hover {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    position: fixed;
+    position: static;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -180,5 +180,4 @@ a.active, a:hover {
 
 .topical{
     background: white;
-    margin-top: 100px;
 }
