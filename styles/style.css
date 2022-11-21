@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-
+    box-sizing: border-box;
 }
 
 html { 
@@ -25,9 +25,7 @@ nav {
     height: 80px;
     width: 100%;
     background:rgba(0, 0, 0, 0.8)
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+    
 }
 
 label.logo {
@@ -52,6 +50,7 @@ label.logo img {
 nav ul {
     float: right;
     margin-right: 20px;
+    list-style: none;
 }
 
 nav ul li {
@@ -64,6 +63,7 @@ nav ul li a {
     color: white;
     font-size: 16px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 a.active, a:hover {
@@ -180,4 +180,5 @@ a.active, a:hover {
 
 .topical{
     background: white;
+    margin-top: 100px;
 }
