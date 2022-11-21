@@ -165,10 +165,9 @@ a.active, a:hover {
     
 }
 
-.grid-container img{
-    width: 600px;
-    height: 400px;
+.topical_img1{
     border-radius: 20%;
+    margin-top: 100px;
 }
 
 
