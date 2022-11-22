@@ -139,6 +139,7 @@ a.active, a:hover {
     display: inline-block;
     vertical-align: top;
     margin: 10px;
+    letter-spacing: 1px;
 }
 
 .socials img{
@@ -169,11 +170,14 @@ a.active, a:hover {
 .banner_text{
     text-align: center;
     color:white;
-    top: 320px;
-    left: 550px;
+    top: 550%;
+    left: 27%;
     position: absolute;
     letter-spacing: 5px;
-
+    line-height: 2;
+    font-size: larger;
+    /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
+    transform: translateY(-50%);
 }
 
 .topical{
