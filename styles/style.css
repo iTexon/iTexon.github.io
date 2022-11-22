@@ -142,8 +142,8 @@ a.active, a:hover {
 }
 
 .socials img{
-    height: 3vw;
-    width: 3vw;
+    height: 2vw;
+    width: 2vw;
 }
 
 .grid-container {
@@ -168,13 +168,13 @@ a.active, a:hover {
 
 .banner_text{
     text-align: center;
+    position: fixed;
+    top:45%;
+    left:25%;
     color:white;
-    top: 550%;
-    left: 27%;
-    position: absolute;
     letter-spacing: 5px;
     line-height: 2;
-    font-size: larger;
+    font-size: 15pt;
     /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
     transform: translateY(-50%);
 }
