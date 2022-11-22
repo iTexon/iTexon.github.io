@@ -5,7 +5,7 @@
 }
 
 html { 
-    background: url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner2.png?raw=true) no-repeat center center fixed; 
+    background: url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner3.png?raw=true) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -123,15 +123,11 @@ a.active, a:hover {
 
 .footer {
     color: white;
-    left: 0;
-    right: 0;
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    position: static;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    position: fixed;
 }
 
 .footer a{
@@ -170,11 +166,14 @@ a.active, a:hover {
     margin-top: 100px;
 }
 
-
 .banner_text{
     text-align: center;
     color:white;
-    margin-top: 60px;
+    top: 320px;
+    left: 550px;
+    position: absolute;
+    letter-spacing: 5px;
+
 }
 
 .topical{
