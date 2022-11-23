@@ -19,24 +19,10 @@ body {
     padding-bottom: 0px;
 }
 
-.banner_text{
-    text-align: center;
-    position: fixed;
-    top:45%;
-    left:25%;
-    color:white;
-    letter-spacing: 5px;
-    line-height: 2;
-    font-size: 15pt;
-    /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
-    transform: translateY(-50%);
-}
-
 nav {
     height: 80px;
     width: 100%;
     background:rgba(0, 0, 0, 0.8)
-    
 }
 
 label.logo {
@@ -152,13 +138,11 @@ a.active, a:hover {
     display: inline-block;
     vertical-align: top;
     letter-spacing: 1px;
-    padding: 1;
-    margin: 1;
 }
 
 .socials img{
-    height: 3vw;
-    width: auto;
+    height: 2vw;
+    width: 2vw;
 }
 
 .grid-container {
@@ -180,7 +164,17 @@ a.active, a:hover {
     margin-top: 80px;
 }
 
-
+.banner_text{
+    width: auto;
+    height: 100%;
+    position: center;
+    text-align: center;
+    color:white;
+    letter-spacing: 5px;
+    line-height: 2;
+    font-size: 15pt;
+    /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
+}
 
 .topical {
     /*background: white;*/
