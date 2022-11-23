@@ -174,10 +174,60 @@ a.active, a:hover {
     gap: var(--gap);  
 }
 
+.overskrift{
+    color: white;
+    font-size: 300%;
+    display: center;
+    vertical-align: middle;
+    text-align: center;
+    width: auto;
+}
+
+.overskrift text {
+    display: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+   .column1 {
+float:left; 
+width:20%;
+text-align:center;
+color:white;
+margin-right: 2.5%;
+margin-left: 2.5%;
+margin-bottom: 10%;
+}
+.column2 {
+    float:left; 
+    width:45%;
+    text-align:center;
+    color:white;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
+    }
+
+    .column3 {
+        float:left; 
+        width:45%;
+        text-align:center;
+        color:white;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        margin-bottom: 10%;
+        }
+
+        .tab{
+            display: inline-block;
+            margin-bottom: 5%;
+        }
+
 .topical_img1{
     border-radius: 20%;
     margin-top: 80px;
 }
+
 
 .topical {
     color: white;
