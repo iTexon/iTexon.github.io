@@ -127,13 +127,18 @@ a.active, a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     position: fixed;
+    padding-top: 10px;
 }
 
-.footer a{
+.footer a {
     color: inherit;
 }
 
-.footer ul{
+.footer h3 {
+    margin: 0;
+}
+
+.footer ul {
     list-style-type:none; 
     display: inline-block;
     vertical-align: top;
@@ -142,8 +147,12 @@ a.active, a:hover {
     margin-bottom: 0.5;
 }
 
-.socials img{
-    height: 4vw;
+.footer ul li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.socials img {
+    height: 3vw;
     width: auto;
 }
 
@@ -151,7 +160,8 @@ a.active, a:hover {
     --gap: 16px;
     --num-cols: 2;
     --num-rows: 2;
-    --row-height: 300px;
+    --row-height: auto;
+    --row-width: auto;
 
     box-sizing: border-box;
     padding: var(--gap);
@@ -159,6 +169,23 @@ a.active, a:hover {
     display: inline-grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     gap: var(--gap);  
+}
+
+.grid-item {
+    display: grid;
+    place-items: center;
+}
+
+@media all and (max-width: 1250px) {
+    .grid-container {
+        --num-cols: 1;
+        --num-rows: 4;
+    }
+
+    .grid-item img {
+        width: 80%;
+        height: auto;
+    }
 }
 
 .topical_img1{
@@ -182,6 +209,6 @@ a.active, a:hover {
     color: white;
 }
 
-.topical a{
+.topical a {
     color: white;
 }
