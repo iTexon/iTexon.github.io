@@ -179,7 +179,7 @@ a.active, a:hover {
 .overskrift{
     color: white;
     font-size: 300%;
-    display: center;
+    position: center;
     vertical-align: middle;
     text-align: center;
     width: auto;
