@@ -264,3 +264,7 @@ a.active, a:hover {
 .topical a {
     color: white;
 }
+
+.topical p{
+    margin-bottom: 0;
+}
