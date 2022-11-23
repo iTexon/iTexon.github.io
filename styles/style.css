@@ -151,7 +151,12 @@ a.active, a:hover {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
-.socials img {
+
+.footer h3{
+    margin: 0;
+}
+
+.socials img{
     height: 3vw;
     width: auto;
 }
