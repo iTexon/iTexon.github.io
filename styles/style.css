@@ -152,8 +152,6 @@ a.active, a:hover {
     display: inline-block;
     vertical-align: top;
     letter-spacing: 1px;
-    padding: 1;
-    margin: 1;
 }
 
 .socials img{
@@ -180,10 +178,10 @@ a.active, a:hover {
     margin-top: 80px;
 }
 
-
-
 .topical {
-    /*background: white;*/
-    /*margin-top: 100px;*/
+    color: white;
+}
+
+.topical a{
     color: white;
 }
