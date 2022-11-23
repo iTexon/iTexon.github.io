@@ -30,7 +30,7 @@ label.logo {
     font-size: 32px;
     line-height: 80px;
     padding: 0 20px;
-    font-weight:200;
+    font-weight: 200;
 }
 
 label.logo span {
@@ -180,26 +180,20 @@ a.active, a:hover {
 .overskrift{
     color: white;
     font-size: 300%;
-    display: center;
-    vertical-align: middle;
-    text-align: center;
     width: auto;
-}
-
-.overskrift text {
-    display: center;
-    vertical-align: middle;
+    height: 100%;
+    position: center;
     text-align: center;
 }
 
-   .column1 {
-float:left; 
-width:20%;
-text-align:center;
-color:white;
-margin-right: 2.5%;
-margin-left: 2.5%;
-margin-bottom: 10%;
+.column1 {
+    float:left; 
+    width:20%;
+    text-align:center;
+    color:white;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
 }
 .column2 {
     float:left; 
@@ -211,20 +205,21 @@ margin-bottom: 10%;
     margin-bottom: 10%;
     }
 
-    .column3 {
-        float:left; 
-        width:45%;
-        text-align:center;
-        color:white;
-        margin-right: 2.5%;
-        margin-left: 2.5%;
-        margin-bottom: 10%;
-        }
+.column3 {
+    float:left; 
+    width:45%;
+    text-align:center;
+    color:white;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
+}
 
-        .tab{
-            display: inline-block;
-            margin-bottom: 5%;
-        }
+.tab {
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
 .grid-item {
     display: grid;
     place-items: center;
@@ -240,6 +235,7 @@ margin-bottom: 10%;
         width: 80%;
         height: auto;
     }
+    /* Kode hentet fra https://stackoverflow.com/questions/71870656/css-grid-columns-according-to-screensize */
 }
 
 .topical_img1{
