@@ -19,24 +19,10 @@ body {
     padding-bottom: 0px;
 }
 
-.banner_text{
-    text-align: center;
-    position: fixed;
-    top:45%;
-    left:25%;
-    color:white;
-    letter-spacing: 5px;
-    line-height: 2;
-    font-size: 15pt;
-    /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
-    transform: translateY(-50%);
-}
-
 nav {
     height: 80px;
     width: 100%;
     background:rgba(0, 0, 0, 0.8)
-    
 }
 
 label.logo {
@@ -141,18 +127,33 @@ a.active, a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     position: fixed;
+    padding-top: 10px;
 }
 
-.footer a{
+.footer a {
     color: inherit;
 }
 
-.footer ul{
+.footer h3 {
+    margin: 0;
+}
+
+.footer ul {
     list-style-type:none; 
     display: inline-block;
     vertical-align: top;
     letter-spacing: 1px;
     margin-top: 0;
+    margin-bottom: 0.5;
+}
+
+.footer ul li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.footer h3{
+    margin: 0;
 }
 
 .socials img{
@@ -164,7 +165,8 @@ a.active, a:hover {
     --gap: 16px;
     --num-cols: 2;
     --num-rows: 2;
-    --row-height: 300px;
+    --row-height: auto;
+    --row-width: auto;
 
     box-sizing: border-box;
     padding: var(--gap);
@@ -222,17 +224,44 @@ margin-bottom: 10%;
             display: inline-block;
             margin-bottom: 5%;
         }
+.grid-item {
+    display: grid;
+    place-items: center;
+}
+
+@media all and (max-width: 1250px) {
+    .grid-container {
+        --num-cols: 1;
+        --num-rows: 4;
+    }
+
+    .grid-item img {
+        width: 80%;
+        height: auto;
+    }
+}
 
 .topical_img1{
     border-radius: 20%;
     margin-top: 80px;
 }
 
+.banner_text{
+    width: auto;
+    height: 100%;
+    position: center;
+    text-align: center;
+    color:white;
+    letter-spacing: 5px;
+    line-height: 2;
+    font-size: 15pt;
+    /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
+}
 
 .topical {
     color: white;
 }
 
-.topical a{
+.topical a {
     color: white;
 }
