@@ -127,6 +127,7 @@ a.active, a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     position: fixed;
+    padding-top: 10px;
 }
 
 .footer a{
@@ -140,6 +141,10 @@ a.active, a:hover {
     letter-spacing: 1px;
     margin-top: 0;
     margin-bottom: 0.5;
+}
+
+.footer h3{
+    margin: 0;
 }
 
 .socials img{
