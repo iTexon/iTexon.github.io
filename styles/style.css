@@ -180,10 +180,11 @@ a.active, a:hover {
 .overskrift{
     color: white;
     font-size: 300%;
+    position: center;
+    vertical-align: middle;
+    text-align: center;
     width: auto;
     height: 100%;
-    position: center;
-    text-align: center;
 }
 
 .column1 {
