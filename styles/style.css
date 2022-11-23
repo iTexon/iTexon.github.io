@@ -138,6 +138,7 @@ a.active, a:hover {
     display: inline-block;
     vertical-align: top;
     letter-spacing: 1px;
+    margin-top: 0;
 }
 
 .socials img{
@@ -177,7 +178,9 @@ a.active, a:hover {
 }
 
 .topical {
-    /*background: white;*/
-    /*margin-top: 100px;*/
+    color: white;
+}
+
+.topical a{
     color: white;
 }
