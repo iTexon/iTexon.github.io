@@ -152,11 +152,13 @@ a.active, a:hover {
     display: inline-block;
     vertical-align: top;
     letter-spacing: 1px;
+    padding: 1;
+    margin: 1;
 }
 
 .socials img{
-    height: 2vw;
-    width: 2vw;
+    height: 3vw;
+    width: auto;
 }
 
 .grid-container {
