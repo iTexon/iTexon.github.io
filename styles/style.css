@@ -129,6 +129,7 @@ a.active, a:hover {
     position: fixed;
     padding-top: 10px;
 }
+/* Kode hentet fra https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
 
 .footer a {
     color: inherit;
@@ -268,3 +269,4 @@ a.active, a:hover {
 .topical p{
     margin-bottom: 0;
 }
+
