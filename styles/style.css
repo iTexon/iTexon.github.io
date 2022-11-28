@@ -256,6 +256,14 @@ a.active, a:hover {
     /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
 }
 
+.banner_text span {
+    font-size: 25pt;
+    line-height: 2;
+    font-style: bold;
+    color: red;
+
+}
+
 .topical {
     color: white;
     padding-bottom: 100px;
