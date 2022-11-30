@@ -219,7 +219,6 @@ a.active, a:hover {
     letter-spacing: 5px;
     line-height: 2;
     font-size: 15pt;
-    margin-bottom: 200px;
     /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
 }
 
@@ -233,7 +232,6 @@ a.active, a:hover {
 
 .topical {
     color: white;
-    padding-bottom: 200px;
 }
 
 .topical a {
@@ -283,4 +281,8 @@ a.active, a:hover {
 .socials img{
     height: 3vw;
     width: auto;
+}
+
+.content {
+    padding-bottom: 200px;
 }
