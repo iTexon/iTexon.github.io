@@ -9,6 +9,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
     /* Forsikrer at bakgrunnsbilde dekker hele browseren hentet fra https://css-tricks.com/perfect-full-page-background-image/ */
+    padding-bottom: 250px;
   }
 
 body {
@@ -282,10 +283,6 @@ a.active, a:hover {
     width: auto;
 }
 
-.content {
-    padding-bottom: 200px;
-    color: white;
-}
 
 .reservasjoner {
     text-align: center;
