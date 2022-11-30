@@ -16,7 +16,7 @@
 
     <input type ="checkbox" id="check">
     <label for="check" class="checkbtn">
-      <i class="fas fa-bars"></i>
+      <i class="fas fa-bars"></i> <!--Ikon til dropdown meny -->
     </label>
 
     <label class="logo">
@@ -35,6 +35,48 @@
   
   </nav>
 
+  <div class="content">
+    <div class="reservasjoner">
+
+        <p class="overskrift">Reservasjoner</p>
+        <hr>
+
+    <p>I hjertet av Kråkstad finner du CafeZaurus. Med fokus på en europeisk kulinarisk opplevelse, tilbyr vi også god plass og atmosfære for selskap av flere størrelser.</p>
+    <p>I vår underetasje har vi et hovedrom med kapasitet på 80 personer, og to mindre rom med kapasitet til sammen for 60 personer.<br>
+    Hovedrommet kan enten brukes alene til store arrangementer og aktiviteter eller deles opp for mindre selskaper.<br>
+    Hele underetasjen kan også reserveres i sin helhet for et lukkede selskap opptil 140 personer.<br>
+    Her får du tilgang til egen inngang, garderobe, toaletter og bar.</p>
+    <p>Velkommen skal du være!</p>
+
+    <hr>
+
+    <p>Reservering av våre lokaler kan bli gjort via vår epost adresse: <a href="mailto:booking@cafezaurus.no">booking@cafezaurus.no</a> eller via reservasjonskjemaet du finner under.</p>
+    <div class="container">
+        <form action="reservasjoner.html">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+  </div>
+  </div>
+  
   <div class="footer">
 
     <ul>
