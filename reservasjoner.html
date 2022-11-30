@@ -54,22 +54,34 @@
     <div class="container">
         <form action="reservasjoner.html">
       
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
+          <label for="fnavn">Fornavn</label>
+          <br>
+          <input type="text" id="fnavn" name="fornavn" placeholder="Ditt fornavn..">
+            <br>
+          <label for="ename">Etternavn</label>
+          <br>
+          <input type="text" id="ename" name="etternavn" placeholder="Ditt etternavn">
+            <br>
+          <label for="ukedag">Ukedag</label>
+          <br>
+          <select id="ukedag" name="ukedag">
+            <option value="mandag">Mandag</option>
+            <option value="tirsdag">Tirsdag</option>
+            <option value="onsdag">Onsdag</option>
+            <option value="torsdag">Torsdag</option>
+            <option value="fredag">Fredag</option>
+            <option value="lørdag">Lørdag</option>
+            <option value="søndag">Søndag</option>
           </select>
-      
-          <label for="subject">Subject</label>
+          <br>
+          <label for="dato">Reservasjonsdag</label>
+          <br>
+          <input type="date" id="dato" name="dato">
+          <br>
+          <label for="subject">Ekstra notater</label>
+          <br>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
+          <br>
           <input type="submit" value="Submit">
       
         </form>

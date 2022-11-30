@@ -283,13 +283,9 @@ a.active, a:hover {
     width: auto;
 }
 
-.content {
-    padding-bottom: 200px;
-    color: white;
-}
-
 .reservasjoner {
     text-align: center;
+    color: white;
 }
 
 
@@ -301,7 +297,7 @@ a.active, a:hover {
 
 
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
+    width: 50%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
@@ -324,5 +320,9 @@ input[type=text], select, textarea {
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: #45a049;
+  }
+
+  input[type=dato]{
+    width: 100%;
   }
   
