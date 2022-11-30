@@ -8,6 +8,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /* Forsikrer at bakgrunnsbilde dekker hele browseren hentet fra https://css-tricks.com/perfect-full-page-background-image/ */
   }
 
 body {
@@ -17,12 +18,14 @@ body {
     margin: 0;
     min-height: 100%;
     padding-bottom: 0px;
+
 }
 
 nav {
     height: 80px;
     width: 100%;
     background:rgba(0, 0, 0, 0.8)
+    /* Kode til header/nav bar hentet fra https://www.youtube.com/watch?v=oLgtucwjVII */
 }
 
 label.logo {
@@ -91,6 +94,7 @@ a.active, a:hover {
     nav ul li a {
         font-size: 15px;
     }
+    /*Endrer til mindre skriftstørrelse når browser er under 1080px bred. Kode hentet fra https://www.youtube.com/watch?v=oLgtucwjVII*/
 }
 
 @media (max-width: 1000px) {
@@ -118,49 +122,10 @@ a.active, a:hover {
     #check:checked ~ ul {
         left: 0;
     }
+    /*Nav-bar byttes ut med dropdown meny når browser er under 1000px bred. Kode hentet fra fra https://www.youtube.com/watch?v=oLgtucwjVII*/
 }
 
-.footer {
-    color: white;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    text-align: center;
-    position: fixed;
-    padding-top: 10px;
-}
-/* Kode hentet fra https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
 
-.footer a {
-    color: inherit;
-}
-
-.footer h3 {
-    margin: 0;
-}
-
-.footer ul {
-    list-style-type:none; 
-    display: inline-block;
-    vertical-align: top;
-    letter-spacing: 1px;
-    margin-top: 0;
-    margin-bottom: 0.5;
-}
-
-.footer ul li {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-}
-
-.footer h3{
-    margin: 0;
-}
-
-.socials img{
-    height: 3vw;
-    width: auto;
-}
 
 .grid-container {
     --gap: 16px;
@@ -237,7 +202,7 @@ a.active, a:hover {
         width: 80%;
         height: auto;
     }
-    /* Kode hentet fra https://stackoverflow.com/questions/71870656/css-grid-columns-according-to-screensize */
+    /* Kolonner per rad i grid reduseres når browser er under 1250px bred. Kode hentet fra https://stackoverflow.com/questions/71870656/css-grid-columns-according-to-screensize */
 }
 
 .topical_img1{
@@ -245,7 +210,7 @@ a.active, a:hover {
     vertical-align: middle;
 }
 
-.banner_text{
+.banner{
     width: auto;
     height: 100%;
     position: center;
@@ -254,10 +219,11 @@ a.active, a:hover {
     letter-spacing: 5px;
     line-height: 2;
     font-size: 15pt;
+    margin-bottom: 200px;
     /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
 }
 
-.banner_text span {
+.banner span {
     font-size: 25pt;
     line-height: 2;
     font-style: bold;
@@ -267,7 +233,7 @@ a.active, a:hover {
 
 .topical {
     color: white;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .topical a {
@@ -278,3 +244,43 @@ a.active, a:hover {
     margin-bottom: 0;
 }
 
+.footer {
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    position: fixed;
+    padding-top: 10px;
+}
+
+.footer a {
+    color: inherit;
+}
+
+.footer h3 {
+    margin: 0;
+}
+
+.footer ul {
+    list-style-type:none; 
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 0.5;
+}
+
+.footer ul li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.footer h3{
+    margin: 0;
+}
+
+.socials img{
+    height: 3vw;
+    width: auto;
+}
