@@ -126,22 +126,6 @@ a.active, a:hover {
     /*Nav-bar byttes ut med dropdown meny når browser er under 1000px bred. Kode hentet fra fra https://www.youtube.com/watch?v=oLgtucwjVII*/
 }
 
-.grid-container {
-    --gap: 16px;
-    --num-cols: 2;
-    --num-rows: 2;
-    --row-height: auto;
-    --row-width: auto;
-
-    box-sizing: border-box;
-    padding: var(--gap);
-
-    display: inline-grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    gap: var(--gap);
-    padding-bottom: 100px;
-}
-
 .foretter {
     --gap: 16px;
     --num-cols: 2;
@@ -250,6 +234,22 @@ a.active, a:hover {
 .tab {
     display: inline-block;
     margin-bottom: 5%;
+}
+
+.grid-container {
+    --gap: 16px;
+    --num-cols: 2;
+    --num-rows: 2;
+    --row-height: auto;
+    --row-width: auto;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: inline-grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    gap: var(--gap);
+    padding-bottom: 100px;
 }
 
 .grid-item {
