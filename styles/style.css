@@ -9,7 +9,6 @@ html {
     -o-background-size: cover;
     background-size: cover;
     /* Forsikrer at bakgrunnsbilde dekker hele browseren hentet fra https://css-tricks.com/perfect-full-page-background-image/ */
-    padding-bottom: 250px;
   }
 
 body {
@@ -313,12 +312,13 @@ a.active, a:hover {
 }
 
 .footer {
+    margin-top: 200px;
     color: white;
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    position: fixed;
+    position: static;
     padding-top: 10px;
 }
 
