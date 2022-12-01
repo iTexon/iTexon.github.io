@@ -247,6 +247,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     gap: var(--gap);
+    /* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
 }
 
 .foretter-item {
@@ -277,6 +278,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     gap: var(--gap);
+    /* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
 }
 
 .hovedretter-item {
@@ -306,7 +308,8 @@ h3 {
 
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
-    gap: var(--gap);
+    gap: var(--gap);@
+    /* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
 }
 
 .desserter-item {
@@ -399,6 +402,7 @@ h3 {
     display: inline-grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     gap: var(--gap);
+    /* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
 }
 
 .grid-item {
@@ -436,13 +440,6 @@ h3 {
     /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
 }
 
-.banner span {
-    font-size: 25pt;
-    line-height: 2;
-    font-style: bold;
-    color: red;
-}
-
 td {
    
     width: 1%;
@@ -454,14 +451,18 @@ td {
 }
 
 .button{
-  background-color: white   ;
-  border: 5px solid white;
-  border: none;
-  padding: 3% 4%;
-  color: white;
-  text-align: center;
-  display: inline-block;
- 
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    border-radius: 0.8em;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+    font-size: larger;
+    /* hentet fra https://www.w3schools.com/css/css3_buttons.asp */
 }
 
 .button a{
