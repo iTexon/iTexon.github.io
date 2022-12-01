@@ -124,6 +124,13 @@ a.active, a:hover {
         left: 0;
     }
     /*Nav-bar byttes ut med dropdown meny når browser er under 1000px bred. Kode hentet fra fra https://www.youtube.com/watch?v=oLgtucwjVII*/
+    .footer {
+        position: absolute;
+    }
+}
+
+.vegetariansk {
+    color: chartreuse;
 }
 
 .foretter {
