@@ -8,6 +8,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-bottom: 150px;
     /* Forsikrer at bakgrunnsbilde dekker hele browseren hentet fra https://css-tricks.com/perfect-full-page-background-image/ */
   }
 
@@ -87,6 +88,47 @@ a.active, a:hover {
     display: none;
 }
 
+.footer {
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    position: fixed;
+    padding-top: 10px;
+}
+
+.footer a {
+    color: inherit;
+}
+
+.footer h3 {
+    margin: 0;
+}
+
+.footer ul {
+    list-style-type:none; 
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 0.5;
+}
+
+.footer ul li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.footer h3{
+    margin: 0;
+}
+
+.socials img{
+    height: 3vw;
+    width: auto;
+}
+
 @media (max-width: 1080px) {
     label.logo {
         font-size: 30px;
@@ -123,6 +165,13 @@ a.active, a:hover {
         left: 0;
     }
     /*Nav-bar byttes ut med dropdown meny når browser er under 1000px bred. Kode hentet fra fra https://www.youtube.com/watch?v=oLgtucwjVII*/
+    .footer{
+        position: static;
+        margin-top: 50px;
+    }
+    html{
+        padding-bottom: 0px;
+    }
 }
 
 .vegetariansk {
@@ -307,49 +356,6 @@ a.active, a:hover {
 .topical p{
     margin-bottom: 0;
 }
-
-.footer {
-    margin-top: 200px;
-    color: white;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    text-align: center;
-    position: static;
-    padding-top: 10px;
-}
-
-.footer a {
-    color: inherit;
-}
-
-.footer h3 {
-    margin: 0;
-}
-
-.footer ul {
-    list-style-type:none; 
-    display: inline-block;
-    vertical-align: top;
-    letter-spacing: 1px;
-    margin-top: 0;
-    margin-bottom: 0.5;
-}
-
-.footer ul li {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-}
-
-.footer h3{
-    margin: 0;
-}
-
-.socials img{
-    height: 3vw;
-    width: auto;
-}
-
 
 .reservasjoner {
     text-align: center;
