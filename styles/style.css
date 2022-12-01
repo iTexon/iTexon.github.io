@@ -345,6 +345,18 @@ a.active, a:hover {
     color: red;
 }
 
+td {
+    border: 5px solid white;
+    width: 5%;
+    padding: 10%;
+    margin: 5%;
+    text-align: center;
+    background-color:transparent;
+    table-layout: center;
+   
+}
+
+
 .topical {
     color: white;
 }
