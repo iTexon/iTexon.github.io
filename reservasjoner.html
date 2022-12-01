@@ -40,52 +40,50 @@
         <p class="overskrift">Reservasjoner</p>
         <hr>
 
-    <p>I hjertet av Kråkstad finner du CafeZaurus. Med fokus på en europeisk kulinarisk opplevelse, tilbyr vi også god plass og atmosfære for selskap av flere størrelser.</p>
-    <p>I vår underetasje har vi et hovedrom med kapasitet på 80 personer, og to mindre rom med kapasitet til sammen for 60 personer.<br>
-    Hovedrommet kan enten brukes alene til store arrangementer og aktiviteter eller deles opp for mindre selskaper.<br>
-    Hele underetasjen kan også reserveres i sin helhet for et lukkede selskap opptil 140 personer.<br>
-    Her får du tilgang til egen inngang, garderobe, toaletter og bar.</p>
-    <p>Velkommen skal du være!</p>
+        <p>I hjertet av Kråkstad finner du CafeZaurus. Med fokus på en europeisk kulinarisk opplevelse, tilbyr vi også god plass og atmosfære for selskap av flere størrelser.</p>
+        <p>I vår underetasje har vi et hovedrom med kapasitet på 80 personer, og to mindre rom med kapasitet til sammen for 60 personer.<br>
+        Hovedrommet kan enten brukes alene til store arrangementer og aktiviteter eller deles opp for mindre selskaper.<br>
+        Hele underetasjen kan også reserveres i sin helhet for et lukkede selskap opptil 140 personer.<br>
+        Her får du tilgang til egen inngang, garderobe, toaletter og bar.</p>
+        <p>Velkommen skal du være!</p>
 
-    <hr>
+        <hr>
 
-    <p>Reservering av våre lokaler kan bli gjort via vår epost adresse: <a href="mailto:booking@cafezaurus.no">booking@cafezaurus.no</a> eller via reservasjonskjemaet du finner under.</p>
-    <div class="container">
-        <form action="reservasjoner.html">
+        <p>Reservering av våre lokaler kan bli gjort via vår epost adresse: <a href="mailto:booking@cafezaurus.no">booking@cafezaurus.no</a> eller via reservasjonskjemaet du finner under.</p>
+        <div class="reservasjonsmeny">      
+            <!--Følgende kode er tatt fra https://www.w3schools.com/howto/howto_css_contact_form.asp . Koden går ut på å lage en kontaktskjema med felter hvor man kan skrive informasjon, samtidig som felter har navn og kan ha tekst som står i dem før man starter å srkirve- "Skriv ditt navn her". Man kan da også ha dropdown menyer med flere muligheter. Og til slutt har man en knapp for å sende skjemaet videre.-->
+            <form action="reservasjoner.html">
       
-          <label for="fnavn">Fornavn</label>
-          <br>
-          <input type="text" id="fnavn" name="fornavn" placeholder="Ditt fornavn..">
+            <label for="fnavn">Fornavn</label>
             <br>
-          <label for="ename">Etternavn</label>
-          <br>
-          <input type="text" id="ename" name="etternavn" placeholder="Ditt etternavn">
+            <input type="text" id="fnavn" name="fornavn" placeholder="Ditt fornavn..">
             <br>
-          <label for="ukedag">Ukedag</label>
-          <br>
-          <select id="ukedag" name="ukedag">
-            <option value="mandag">Mandag</option>
-            <option value="tirsdag">Tirsdag</option>
-            <option value="onsdag">Onsdag</option>
-            <option value="torsdag">Torsdag</option>
-            <option value="fredag">Fredag</option>
-            <option value="lørdag">Lørdag</option>
-            <option value="søndag">Søndag</option>
-          </select>
-          <br>
-          <label for="dato">Reservasjonsdag</label>
-          <br>
-          <input type="date" id="dato" name="dato">
-          <br>
-          <label for="subject">Ekstra notater</label>
-          <br>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          <br>
-          <input type="submit" value="Submit">
+            <label for="enavn">Etternavn</label>
+            <br>
+            <input type="text" id="enavn" name="etternavn" placeholder="Ditt etternavn">
+            <br>
+            <label for="dato">Reservasjonsdag</label>
+            <br>
+            <!-- "Date" delen av koden er tatt fra https://www.w3schools.com/tags/att_input_type_date.asp og går ut på at man kan ta opp en kaleneder og velge en presis dato-->
+            <input type="date" id="dato" name="dato">
+            <br>
+            <label for="rom">Romvalg</label>
+            <br>
+            <select id="rom" name="rom">
+                <option value="liten">Liten rom (Kapasitet: 30 personer)</option>
+                <option value="tosmå">To små rom (Kapasitet: 60 personer)</option>
+                <option value="hovedrom">Hovedrom (Kapasitet: 80 personer)</option>
+                <option value="underetasje">Hel underetasje (Kapasistet: 140 personer)</option>
+            </select>
+            <br>
+            <label for="notater">Ekstra notater</label>
+            <br>
+            <textarea id="notater" name="notater" placeholder="Skriv inn ekstra notater.." style="height:200px"></textarea>
+            <br>
+            <input type="submit" value="Reserver">
       
         </form>
     </div>
-  </div>
 
   <div class="footer">
 

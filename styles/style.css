@@ -360,40 +360,38 @@ a.active, a:hover {
 }
 
 
-
+/* Følgende "input" delen av koden er tatt fra https://www.w3schools.com/howto/howto_css_contact_form.asp og går ut på pynte boksene til reservasjonskjemaet til nettsiden som er for da farge, størrelse og posisjon*/
 input[type=text], select, textarea {
-    width: 50%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
   }
   
-  /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
+  input[type=sumbit]:hover {
+    background-color: grey;
   }
 
   input[type=date]{
-        width: 50%; /* Full width */
-        padding: 12px; /* Some padding */ 
-        border: 1px solid #ccc; /* Gray border */
-        border-radius: 4px; /* Rounded borders */
-        box-sizing: border-box; /* Make sure that padding and width stays in place */
-        margin-top: 6px; /* Add a top margin */
-        margin-bottom: 16px; /* Bottom margin */
+        width: 50%;
+        padding: 12px; 
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px; 
+        margin-bottom: 16px;
       }
   
