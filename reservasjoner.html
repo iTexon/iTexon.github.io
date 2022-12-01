@@ -10,30 +10,30 @@
   <title>Cafezaurus</title>
   <link rel="icon" href="img/icon.png">
 </head>
+
 <body>
 
-  <nav>
+    <nav>
+        <input type ="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i> <!--Ikon til dropdown meny -->
+        </label>
 
-    <input type ="checkbox" id="check">
-    <label for="check" class="checkbtn">
-      <i class="fas fa-bars"></i> <!--Ikon til dropdown meny -->
-    </label>
+        <label class="logo">
+            <a href="index.html" title="Hovedside">
+            <img id="Logo" src="img/icon2.png" alt="Logo"></a>
+            CAFE<span>ZAURUS</span>
+        </label>
 
-    <label class="logo">
-        <a href="index.html" title="Hovedside">
-        <img id="Logo" src="img/icon2.png" alt="Logo"></a>
-        CAFE<span>ZAURUS</span>
-    </label>
-
-    <ul>
-      <li><a href="index.html">Hovedside</a></li>
-      <li><a class="active" href="reservasjoner.html">Reservasjoner</a></li>
-      <li><a href="cafe.html">Cafe</a></li>
-      <li><a href="accessibility.html">Accessibility</a></li>
-      <li><a href="topicalPage.html">Topical page</a></li>
-    </ul>
+        <ul>
+            <li><a href="index.html">Hovedside</a></li>
+            <li><a class="active" href="reservasjoner.html">Reservasjoner</a></li>
+            <li><a href="cafe.html">Cafe</a></li>
+            <li><a href="accessibility.html">Accessibility</a></li>
+            <li><a href="topicalPage.html">Topical page</a></li>
+        </ul>
   
-  </nav>
+    </nav>
 
   <div class="reservasjoner">
 
@@ -54,74 +54,80 @@
             <!--Følgende kode er tatt fra https://www.w3schools.com/howto/howto_css_contact_form.asp . Koden går ut på å lage en kontaktskjema med felter hvor man kan skrive informasjon, samtidig som felter har navn og kan ha tekst som står i dem før man starter å srkirve- "Skriv ditt navn her". Man kan da også ha dropdown menyer med flere muligheter. Og til slutt har man en knapp for å sende skjemaet videre.-->
             <form action="reservasjoner.html">
       
-            <label for="fnavn">Fornavn</label>
-            <br>
-            <input type="text" id="fnavn" name="fornavn" placeholder="Ditt fornavn..">
-            <br>
-            <label for="enavn">Etternavn</label>
-            <br>
-            <input type="text" id="enavn" name="etternavn" placeholder="Ditt etternavn">
-            <br>
-            <label for="dato">Reservasjonsdag</label>
-            <br>
-            <!-- "Date" delen av koden er tatt fra https://www.w3schools.com/tags/att_input_type_date.asp og går ut på at man kan ta opp en kaleneder og velge en presis dato-->
-            <input type="date" id="dato" name="dato">
-            <br>
-            <label for="rom">Romvalg</label>
-            <br>
-            <select id="rom" name="rom">
-                <option value="liten">Liten rom (Kapasitet: 30 personer)</option>
-                <option value="tosmå">To små rom (Kapasitet: 60 personer)</option>
-                <option value="hovedrom">Hovedrom (Kapasitet: 80 personer)</option>
-                <option value="underetasje">Hel underetasje (Kapasistet: 140 personer)</option>
-            </select>
-            <br>
-            <label for="notater">Ekstra notater</label>
-            <br>
-            <textarea id="notater" name="notater" placeholder="Skriv inn ekstra notater.." style="height:200px"></textarea>
-            <br>
-            <input type="submit" value="Reserver">
+                <label for="fnavn">Fornavn</label>
+                <br>
+                <input type="text" id="fnavn" name="fornavn" placeholder="Ditt fornavn..">
+                <br>
+
+                <label for="enavn">Etternavn</label>
+                <br>
+                <input type="text" id="enavn" name="etternavn" placeholder="Ditt etternavn">
+                <br>
+                
+                <!-- "Date" delen av koden er tatt fra https://www.w3schools.com/tags/att_input_type_date.asp og går ut på at man kan ta opp en kaleneder og velge en presis dato-->
+                <label for="dato">Reservasjonsdag</label>
+                <br>
+                <input type="date" id="dato" name="dato">
+                <br>
+
+                <label for="rom">Romvalg</label>
+                <br>
+                <select id="rom" name="rom">
+                    <option value="liten">Liten rom (Kapasitet: 30 personer)</option>
+                    <option value="tosmå">To små rom (Kapasitet: 60 personer)</option>
+                    <option value="hovedrom">Hovedrom (Kapasitet: 80 personer)</option>
+                    <option value="underetasje">Hel underetasje (Kapasistet: 140 personer)</option>
+                </select>
+                <br>
+
+                <label for="notater">Ekstra notater</label>
+                <br>
+                <textarea id="notater" name="notater" placeholder="Skriv inn ekstra notater.." style="height:200px"></textarea>
+                <br>
+
+                <input type="submit" value="Reserver">
       
-        </form>
+            </form>
+        </div>
     </div>
 
-  <div class="footer">
-
-    <ul>
-      <li><h3>Ordinære åpningstider</h3></li>
-      <li>Mandag - Fredag: 8 - 22</li>
-      <li>Lørdag: 10 - 23</li>
-      <li style="color:red">Søndag: 10 - 21</li>
-  </ul>
-
-      <ul>
-          <h3>Adresse</h3>
-          <li>Cafezaurus Kråkstad</li>
-          <li>Kråkstadveien 130</li>
-          <li>1408 Kråkstad</li>
-        </ul>
+    <div class="footer">
 
         <ul>
-          <h3>Kontakt</h3>
-          <li><a href="tel:+4714052000">+47 14 05 20 00</a></li>
-          <li><a href="mailto:booking@cafezaurus.no">booking@cafezaurus.no</a></li>
+          <li><h3>Ordinære åpningstider</h3></li>
+          <li>Mandag - Fredag: 8 - 22</li>
+          <li>Lørdag: 10 - 23</li>
+          <li style="color:red">Søndag: 10 - 21</li>
+      </ul>
+  
+        <ul>
+            <h3>Adresse</h3>
+            <li>Cafezaurus Kråkstad</li>
+            <li>Kråkstadveien 130</li>
+            <li>1408 Kråkstad</li>
         </ul>
+  
+        <ul>
+            <h3>Kontakt</h3>
+            <li><a href="tel:+4714052000">+47 14 05 20 00</a></li>
+            <li><a href="mailto:booking@cafezaurus.no">booking@cafezaurus.no</a></li>
+        </ul>
+  
+        <ul class="socials">
+  
+            <li><h3>Sosiale Medier</h3></li>
+  
+            <a href="https://www.facebook.com/cafezaurus" target=”_blank” title="Cafezurus Facebook">
+            <img id="facebook" src="img/facebook.png" alt="Facebook"></a> <!-- Bilde hentet fra https://commons.wikimedia.org/wiki/File:Facebook_logo_%28square%29.png -->
 
-  <ul class="socials">
+            <a href="https://www.instagram.com/cafezaurus" target=”_blank” title="Cafezaurus Instagram">
+            <img id="instagram" src="img/instagram.png" alt="Instagram"></a> <!-- Bilde hentet fra https://commons.wikimedia.org/wiki/File:Instagram_icon.png -->
 
-      <li><h3>Sosiale Medier</h3></li>
-
-      <a href="https://www.facebook.com/cafezaurus" target=”_blank” title="Cafezurus Facebook">
-        <img id="facebook" src="img/facebook.png" alt="Facebook"></a> <!-- Bilde hentet fra https://commons.wikimedia.org/wiki/File:Facebook_logo_%28square%29.png -->
-
-    <a href="https://www.instagram.com/cafezaurus" target=”_blank” title="Cafezaurus Instagram">
-        <img id="instagram" src="img/instagram.png" alt="Instagram"></a> <!-- Bilde hentet fra https://commons.wikimedia.org/wiki/File:Instagram_icon.png -->
-
-    <a href="https://www.twitter.com/cafezaurus" target=”_blank” title="Cafezaurus Twitter">
-        <img id="twitter" src="img/twitter.png" alt="Twitter"></a> <!-- Bilde hentet fra https://deerhillexpeditions.com/were-open/twitter-emblem/ -->
-
-  </ul>
-  </div>
+            <a href="https://www.twitter.com/cafezaurus" target=”_blank” title="Cafezaurus Twitter">
+            <img id="twitter" src="img/twitter.png" alt="Twitter"></a> <!-- Bilde hentet fra https://deerhillexpeditions.com/were-open/twitter-emblem/ -->
+  
+        </ul>
+    </div>
 
 </body>
 </html>
