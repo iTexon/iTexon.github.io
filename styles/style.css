@@ -19,7 +19,6 @@ body {
     margin: 0;
     min-height: 100%;
     padding-bottom: 0px;
-
 }
 
 nav {
@@ -174,8 +173,63 @@ a.active, a:hover {
     }
 }
 
+.overskrift{
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+h2 {
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+h3 {
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
 .vegetariansk {
     color: chartreuse;
+}
+
+.kafe-meny {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.kafe-meny ul {
+    float: middle;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kafe-meny ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px 0 50px;
+}
+
+.kafe-meny ul li a {
+    color: white;
+    font-size: 200%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.kafe-meny ul li a:hover {
+    color: grey;
+    transition: .5s;
 }
 
 .foretter {
@@ -275,13 +329,6 @@ a.active, a:hover {
     color: white;
 }
 
-.overskrift{
-    color: white;
-    font-size: 300%;
-    text-align: center;
-    width: auto;
-    height: auto;
-}
 
 .tab {
     display: inline-block;
@@ -352,10 +399,8 @@ td {
     margin: 5%;
     text-align: center;
     background-color:transparent;
-    table-layout: center;
-   
+    table-layout: center; 
 }
-
 
 .topical {
     color: white;
@@ -374,9 +419,7 @@ td {
     color: white;
 }
 
-
-
-.reservasjoner a{
+.reservasjoner a {
     color: inherit;
 }
 
