@@ -131,7 +131,8 @@ a.active, a:hover {
     grid-template-columns: auto auto auto;
     background-color: #2196F3;
     padding: 10px;
-    
+}
+   
 .foretter {
     --gap: 16px;
     --num-cols: 2;
