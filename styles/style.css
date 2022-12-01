@@ -9,7 +9,6 @@ html {
     -o-background-size: cover;
     background-size: cover;
     /* Forsikrer at bakgrunnsbilde dekker hele browseren hentet fra https://css-tricks.com/perfect-full-page-background-image/ */
-    padding-bottom: 250px;
   }
 
 body {
@@ -124,16 +123,6 @@ a.active, a:hover {
         left: 0;
     }
     /*Nav-bar byttes ut med dropdown meny når browser er under 1000px bred. Kode hentet fra fra https://www.youtube.com/watch?v=oLgtucwjVII*/
-    .footer {
-        position: absolute;
-    }
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
 }
    
 .vegetariansk {
@@ -323,12 +312,13 @@ a.active, a:hover {
 }
 
 .footer {
+    margin-top: 200px;
     color: white;
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    position: fixed;
+    position: static;
     padding-top: 10px;
 }
 
