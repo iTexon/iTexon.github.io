@@ -95,6 +95,7 @@ a.active, a:hover {
     text-align: center;
     position: fixed;
     padding-top: 10px;
+    
 }
 
 .footer a {
@@ -443,13 +444,29 @@ h3 {
 }
 
 td {
-    border: 5px solid white;
-    width: 5%;
-    padding: 10%;
-    margin: 5%;
+   
+    width: 1%;
+    padding: 3%;
     text-align: center;
     background-color:transparent;
-    table-layout: center; 
+    table-layout: center;   
+  
+}
+
+.button{
+  background-color: white   ;
+  border: 5px solid white;
+  border: none;
+  padding: 3% 4%;
+  color: white;
+  text-align: center;
+  display: inline-block;
+ 
+}
+
+.button a{
+    text-decoration:none;
+ 
 }
 
 .topical {
