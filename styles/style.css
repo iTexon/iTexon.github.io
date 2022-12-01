@@ -136,6 +136,10 @@ a.active, a:hover {
     padding: 10px;
 }
    
+.vegetariansk {
+    color: chartreuse;
+  }
+
 .foretter {
     --gap: 16px;
     --num-cols: 2;
