@@ -462,7 +462,7 @@ td {
     text-decoration:none;
     color:#FFFFFF;
     text-align:center;
-    transition: all 0.15s;
+    transition: all .5s;
     font-size: larger;
     /* hentet fra https://www.w3schools.com/css/css3_buttons.asp */
 }
