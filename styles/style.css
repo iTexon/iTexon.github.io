@@ -447,16 +447,16 @@ a.active, a:hover {
     justify-content: center;  
     align-items: center;
     width: auto;
+    margin: 100px;
 }
 
 button {
     vertical-align: center;
     border: 0.16em solid white;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 16px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
     margin: auto;
     cursor: pointer;
     border-radius: 12px;
@@ -471,7 +471,7 @@ button:hover {
 
 button a {
     color: white;
-    font-size: 200%;
+    font-size: 300%;
     text-transform: uppercase;
     text-decoration: none;
 }
