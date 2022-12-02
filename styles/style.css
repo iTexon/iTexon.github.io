@@ -238,7 +238,7 @@ a.active, a:hover {
 .foretter {
     --gap: 16px;
     --num-cols: 2;
-    --num-rows: 1;
+    --num-rows: 2;
     --row-height: auto;
     --row-width: auto;
 
@@ -269,7 +269,7 @@ a.active, a:hover {
 .hovedretter {
     --gap: 16px;
     --num-cols: 2;
-    --num-rows: 2;
+    --num-rows: 4;
     --row-height: auto;
     --row-width: auto;
     
@@ -300,7 +300,7 @@ a.active, a:hover {
 .desserter {
     --gap: 16px;
     --num-cols: 2;
-    --num-rows: 1;
+    --num-rows: 2;
     --row-height: auto;
     --row-width: auto;
     
@@ -322,7 +322,7 @@ a.active, a:hover {
 }
 
 .desserter-item > img {
-    vertical-align: middle;
+    justify-content: center;
     width: 100%;
     height: auto;
     box-shadow: 1px 2px 10px 5px black;
