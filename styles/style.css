@@ -126,9 +126,13 @@ a.active, a:hover {
     margin: 0;
 }
 
-p{
+.hovedsideTekst p{
    font-size: 25px;
 
+}
+
+p.kafe{
+    font: size 30px; ;
 }
 
 .socials img{
