@@ -126,6 +126,11 @@ a.active, a:hover {
     margin: 0;
 }
 
+p{
+   font-size: 25px;
+
+}
+
 .socials img{
     height: 3vw;
     width: auto;
