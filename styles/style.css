@@ -6,7 +6,7 @@
 
 html {
     background-color: black;
-    background: url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner3.png?raw=true) no-repeat center center fixed; 
+    background: url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner3.png?raw=true) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -98,7 +98,18 @@ a.active, a:hover {
     text-align: center;
     position: fixed;
     padding-top: 10px;
-    
+    margin: auto;
+    align-items: middle;
+    clear: both;
+}
+
+.footer-items {
+    display: inline-block;
+    margin: auto;
+    place-items: center;
+    justify-content: middle;
+    margin: 0 auto;
+    align-items: middle;
 }
 
 .footer a {
