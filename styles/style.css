@@ -1,3 +1,5 @@
+/* Alle bilder som ikke er kildet har blitt laget ved hjelp av Midjourney AI: https://www.midjourney.com/ */
+
 * {
     box-sizing: border-box;
 }
@@ -182,7 +184,7 @@ a.active, a:hover {
     height: auto;
 }
 
-h2 {
+.kafeSide h2 {
     color: white;
     font-size: 250%;
     text-align: center;
@@ -190,7 +192,7 @@ h2 {
     height: auto;
 }
 
-h3 {
+.kafeSide h3 {
     color: white;
     font-size: 200%;
     text-align: center;
@@ -308,7 +310,7 @@ h3 {
 
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
-    gap: var(--gap);@
+    gap: var(--gap);
     /* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
 }
 
@@ -466,8 +468,15 @@ td {
 }
 
 .button a{
-    text-decoration:none;
- 
+    color: white;
+    font-size: 200%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: grey;
+    transition: .5s;
 }
 
 .topical {
