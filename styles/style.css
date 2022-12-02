@@ -500,6 +500,11 @@ td {
     color: inherit;
 }
 
+.accesibility{
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 /* Følgende "input" delen av koden er tatt fra https://www.w3schools.com/howto/howto_css_contact_form.asp og går ut på pynte boksene til reservasjonskjemaet til nettsiden som er for da farge, størrelse og posisjon*/
 input[type=text], select, textarea {
