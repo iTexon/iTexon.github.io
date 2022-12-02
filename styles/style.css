@@ -149,7 +149,7 @@ a.active, a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.9);;
+        background: rgba(0, 0, 0, 0.9);
         top: 80px;
         left: -100%;
         text-align: center;
@@ -442,41 +442,38 @@ a.active, a:hover {
     /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
 }
 
-td {
-   
-    width: 1%;
-    padding: 3%;
+.button-container{
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    width: auto;
+}
+
+button {
+    vertical-align: center;
+    border: 0.16em solid white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 16px 32px;
     text-align: center;
-    background-color:transparent;
-    table-layout: center;   
-  
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 12px;
+    table-layout: center;
 }
 
-.button{
-    display:inline-block;
-    padding:0.5em 3em;
-    border:0.16em solid #FFFFFF;
-    border-radius: 0.8em;
-    margin:0 0.3em 0.3em 0;
-    box-sizing: border-box;
-    text-decoration:none;
-    color:#FFFFFF;
-    text-align:center;
-    transition: all 0.15s;
-    font-size: larger;
-    /* hentet fra https://www.w3schools.com/css/css3_buttons.asp */
+button:hover {
+    color: grey;
+    border-color: grey;
+    transition: .5s;
 }
 
-.button a{
+button a {
     color: white;
     font-size: 200%;
     text-transform: uppercase;
     text-decoration: none;
-}
-
-.button:hover {
-    color: grey;
-    transition: .5s;
 }
 
 .topical {
