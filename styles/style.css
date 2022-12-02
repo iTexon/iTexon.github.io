@@ -184,7 +184,7 @@ a.active, a:hover {
     height: auto;
 }
 
-h2 {
+.kafeSide h2 {
     color: white;
     font-size: 250%;
     text-align: center;
@@ -192,7 +192,7 @@ h2 {
     height: auto;
 }
 
-h3 {
+.kafeSide h3 {
     color: white;
     font-size: 200%;
     text-align: center;
@@ -529,4 +529,3 @@ input[type=text], select, textarea {
         margin-top: 6px; 
         margin-bottom: 16px;
   }
-  
