@@ -99,17 +99,6 @@ a.active, a:hover {
     position: fixed;
     padding-top: 10px;
     margin: auto;
-    align-items: middle;
-    clear: both;
-}
-
-.footer-items {
-    display: inline-block;
-    margin: auto;
-    place-items: center;
-    justify-content: middle;
-    margin: 0 auto;
-    align-items: middle;
 }
 
 .footer a {
@@ -138,13 +127,13 @@ a.active, a:hover {
     margin: 0;
 }
 
-.hovedsideTekst p{
+.hovedsideTekst {
    font-size: 25px;
-
+   margin: 5%;
 }
 
 p.kafe{
-    font: size 30px; ;
+    font-size: 30px; ;
 }
 
 .socials img{
@@ -392,19 +381,19 @@ p.kafe{
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     gap: var(--gap);
-  }
+}
 
-  .chef-item > img {
+.chef-item > img {
    width: 100%;
    height: auto;
    box-shadow: 1px 2px 10px 5px black;
-  }
+}
   
-  .chef-item {
+.chef-item {
     text-align: center;
     place-items: center;
     color: white;
-  }
+}
 
 
 .tab {
@@ -460,6 +449,7 @@ p.kafe{
     letter-spacing: 5px;
     line-height: 2;
     font-size: 15pt;
+    margin: 5%;
     /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
 }
 
@@ -512,13 +502,14 @@ button a {
 .reservasjoner {
     text-align: center;
     color: white;
+    margin: 5%;
 }
 
 .reservasjoner a {
     color: inherit;
 }
 
-.accesibility{
+.accessibility{
     color: white;
     margin-left: 10%;
     margin-right: 10%;
