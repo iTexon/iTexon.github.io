@@ -1,552 +1,553 @@
 /* Alle bilder som ikke er kildet har blitt laget ved hjelp av Midjourney AI: https://www.midjourney.com/ */
-
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-    background-color: black;
-    background: url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner3.png?raw=true) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-bottom: 150px;
-    /* Forsikrer at bakgrunnsbilde dekker hele browseren hentet fra https://css-tricks.com/perfect-full-page-background-image/ */
-  }
+	background-color: black;
+	background: url(https://github.com/iTexon/iTexon.github.io/blob/main/img/banner3.png?raw=true) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 150px;
+	/* Forsikrer at bakgrunnsbilde dekker hele browseren hentet fra https://css-tricks.com/perfect-full-page-background-image/ */
+}
 
 body {
-    font-family: "Montserrat";
-    width: auto;
-    position: relative;
-    margin: 0;
-    min-height: 100%;
-    padding-bottom: 0px;
+	font-family: "Montserrat";
+	width: auto;
+	position: relative;
+	margin: 0;
+	min-height: 100%;
+	padding-bottom: 0px;
 }
 
 nav {
-    height: 80px;
-    width: 100%;
-    background:rgba(0, 0, 0, 0.8)
-    /* Kode til header/nav bar hentet fra https://www.youtube.com/watch?v=oLgtucwjVII */
+	height: 80px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.8)
+		/* Kode til header/nav bar hentet fra https://www.youtube.com/watch?v=oLgtucwjVII */
 }
 
 label.logo {
-    color: white;
-    font-size: 32px;
-    line-height: 80px;
-    padding: 0 20px;
-    font-weight: 200;
+	color: white;
+	font-size: 32px;
+	line-height: 80px;
+	padding: 0 20px;
+	font-weight: 200;
 }
 
 label.logo span {
-    font-weight: 800;
-    color: grey;
+	font-weight: 800;
+	color: grey;
 }
 
 label.logo img {
-    height: 80px;
-    width: auto;
-    vertical-align: middle;
+	height: 80px;
+	width: auto;
+	vertical-align: middle;
 }
 
 nav ul {
-    float: right;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-right: 20px;
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-right: 20px;
 }
 
 nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
 }
 
 nav ul li a {
-    color: white;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-decoration: none;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
-a.active, a:hover {
-    color: grey;
-    transition: .5s;
+a.active,
+a:hover {
+	color: grey;
+	transition: .5s;
 }
 
 .checkbtn {
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
 }
 
 #check {
-    display: none;
+	display: none;
 }
 
 .footer {
-    color: white;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    text-align: center;
-    position: fixed;
-    padding-top: 10px;
-    margin: auto;
+	color: white;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	position: fixed;
+	padding-top: 10px;
+	margin: auto;
 }
 
 .footer a {
-    color: inherit;
+	color: inherit;
 }
 
 .footer h3 {
-    margin: 0;
+	margin: 0;
 }
 
 .footer ul {
-    list-style-type:none; 
-    display: inline-block;
-    vertical-align: top;
-    letter-spacing: 1px;
-    margin-top: 0;
-    margin-bottom: 0.5;
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 1px;
+	margin-top: 0;
+	margin-bottom: 0.5;
 }
 
 .footer ul li {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 }
 
-.footer h3{
-    margin: 0;
+.footer h3 {
+	margin: 0;
 }
 
 .hovedsideTekst {
-   font-size: 25px;
-   margin: 5%;
+	font-size: 25px;
+	margin: 5%;
 }
 
-p.kafe{
-    font-size: 30px; ;
+p.kafe {
+	font-size: 30px;
+	;
 }
 
-.socials img{
-    height: 3vw;
-    width: auto;
+.socials img {
+	height: 3vw;
+	width: auto;
 }
 
 @media (max-width: 1080px) {
-    label.logo {
-        font-size: 30px;
-    }
-    nav ul li a {
-        font-size: 15px;
-    }
-    /*Endrer til mindre skriftstørrelse når browser er under 1080px bred. Kode hentet fra https://www.youtube.com/watch?v=oLgtucwjVII*/
+	label.logo {
+		font-size: 30px;
+	}
+
+	nav ul li a {
+		font-size: 15px;
+	}
+
+	/*Endrer til mindre skriftstørrelse når browser er under 1080px bred. Kode hentet fra https://www.youtube.com/watch?v=oLgtucwjVII*/
 }
 
 @media (max-width: 1000px) {
-    .checkbtn {
-        display: block;
-    }
-    nav ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: rgba(0, 0, 0, 0.9);
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    nav ul li a {
-        font-size: 20px;
-    }
-    #check:checked ~ ul {
-        left: 0;
-    }
-    /*Nav-bar byttes ut med dropdown meny når browser er under 1000px bred. Kode hentet fra fra https://www.youtube.com/watch?v=oLgtucwjVII*/
-    .footer{
-        position: static;
-        margin-top: 50px;
-    }
-    html{
-        padding-bottom: 0px;
-    }
+	.checkbtn {
+		display: block;
+	}
+
+	nav ul {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.9);
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+
+	nav ul li {
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+
+	nav ul li a {
+		font-size: 20px;
+	}
+
+	#check:checked~ul {
+		left: 0;
+	}
+
+	/*Nav-bar byttes ut med dropdown meny når browser er under 1000px bred. Kode hentet fra fra https://www.youtube.com/watch?v=oLgtucwjVII*/
+	.footer {
+		position: static;
+		margin-top: 50px;
+	}
+
+	html {
+		padding-bottom: 0px;
+	}
 }
 
-.overskrift{
-    color: white;
-    font-size: 300%;
-    text-align: center;
-    width: auto;
-    height: auto;
+.overskrift {
+	color: white;
+	font-size: 300%;
+	text-align: center;
+	width: auto;
+	height: auto;
 }
 
 .kafeSide h2 {
-    color: white;
-    font-size: 250%;
-    text-align: center;
-    width: auto;
-    height: auto;
+	color: white;
+	font-size: 250%;
+	text-align: center;
+	width: auto;
+	height: auto;
 }
 
 .kafeSide h3 {
-    color: white;
-    font-size: 200%;
-    text-align: center;
-    width: auto;
-    height: auto;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	width: auto;
+	height: auto;
 }
 
 .vegetariansk {
-    color: chartreuse;
+	color: chartreuse;
 }
 
 .kafe-meny {
-    height: auto;
-    width: 100%;
-    text-align: center;
+	height: auto;
+	width: 100%;
+	text-align: center;
 }
 
 .kafe-meny ul {
-    float: middle;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+	float: middle;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 .kafe-meny ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 50px 0 50px;
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 50px 0 50px;
 }
 
 .kafe-meny ul li a {
-    color: white;
-    font-size: 200%;
-    text-transform: uppercase;
-    text-decoration: none;
+	color: white;
+	font-size: 200%;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .kafe-meny ul li a:hover {
-    color: grey;
-    transition: .5s;
+	color: grey;
+	transition: .5s;
 }
 
 .foretter {
-    --gap: 16px;
-    --num-cols: 2;
-    --num-rows: 2;
-    --row-height: auto;
-    --row-width: auto;
-
-    box-sizing: border-box;
-    padding: var(--gap);
-    margin: auto;
-
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    gap: var(--gap);
-    /* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
+	--gap: 16px;
+	--num-cols: 2;
+	--num-rows: 2;
+	--row-height: auto;
+	--row-width: auto;
+	box-sizing: border-box;
+	padding: var(--gap);
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	gap: var(--gap);
+	/* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
 }
 
 .foretter-item {
-    display: grid;
-    place-items: center;
-    text-align: center;
-    color: white;
+	display: grid;
+	place-items: center;
+	text-align: center;
+	color: white;
 }
 
-.foretter-item > img {
-    vertical-align: middle;
-    width: 100%;
-    height: auto;
-    box-shadow: 1px 2px 10px 5px black;
+.foretter-item>img {
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
+	box-shadow: 1px 2px 10px 5px black;
 }
 
 .hovedretter {
-    --gap: 16px;
-    --num-cols: 2;
-    --num-rows: 4;
-    --row-height: auto;
-    --row-width: auto;
-    
-    box-sizing: border-box;
-    padding: var(--gap);
-    margin: auto;
-
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    gap: var(--gap);
-    /* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
+	--gap: 16px;
+	--num-cols: 2;
+	--num-rows: 4;
+	--row-height: auto;
+	--row-width: auto;
+	box-sizing: border-box;
+	padding: var(--gap);
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	gap: var(--gap);
+	/* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
 }
 
 .hovedretter-item {
-    display: grid;
-    place-items: center;
-    text-align: center;
-    color: white;
+	display: grid;
+	place-items: center;
+	text-align: center;
+	color: white;
 }
 
-.hovedretter-item > img {
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    box-shadow: 1px 2px 10px 5px black;
+.hovedretter-item>img {
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	box-shadow: 1px 2px 10px 5px black;
 }
 
 .desserter {
-    --gap: 16px;
-    --num-cols: 2;
-    --num-rows: 2;
-    --row-height: auto;
-    --row-width: auto;
-    
-    box-sizing: border-box;
-    padding: var(--gap);
-    margin: auto;
-
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    gap: var(--gap);
-    /* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
+	--gap: 16px;
+	--num-cols: 2;
+	--num-rows: 2;
+	--row-height: auto;
+	--row-width: auto;
+	box-sizing: border-box;
+	padding: var(--gap);
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	gap: var(--gap);
+	/* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
 }
 
 .desserter-item {
-    display: grid;
-    place-items: center;
-    text-align: center;
-    color: white;
+	display: grid;
+	place-items: center;
+	text-align: center;
+	color: white;
 }
 
-.desserter-item > img {
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    box-shadow: 1px 2px 10px 5px black;
+.desserter-item>img {
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	box-shadow: 1px 2px 10px 5px black;
 }
 
 .headerMenyTekst {
-    font-size: 25px;
-    font-style: italic;
-    text-align: center;
-    color: white;
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+	color: white;
 }
 
 .outside {
-    color: white;
-    text-align: center;
-    margin: 5%;
+	color: white;
+	text-align: center;
+	margin: 5%;
 }
 
 .outside img {
-    width: 70%;
-    height: auto;
-    box-shadow: 1px 2px 10px 5px black;
+	width: 70%;
+	height: auto;
+	box-shadow: 1px 2px 10px 5px black;
 }
 
 .sjefen {
-    color: white;
-    text-align: center;
-    margin: 5%;
+	color: white;
+	text-align: center;
+	margin: 5%;
 }
 
 .sjefen img {
-    width: 50%;
-    height: auto;
-    box-shadow: 1px 2px 10px 5px black;
+	width: 50%;
+	height: auto;
+	box-shadow: 1px 2px 10px 5px black;
 }
 
 .chef-grid {
-    --gap: 16px;
-    --num-cols: 2;
-    --num-rows: 4;
-    --row-height: 300px;
-
-    box-sizing: border-box;
-    padding: var(--gap);
-
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    gap: var(--gap);
+	--gap: 16px;
+	--num-cols: 2;
+	--num-rows: 4;
+	--row-height: 300px;
+	box-sizing: border-box;
+	padding: var(--gap);
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	gap: var(--gap);
 }
 
-.chef-item > img {
-   width: 100%;
-   height: auto;
-   box-shadow: 1px 2px 10px 5px black;
+.chef-item>img {
+	width: 100%;
+	height: auto;
+	box-shadow: 1px 2px 10px 5px black;
 }
-  
+
 .chef-item {
-    text-align: center;
-    place-items: center;
-    color: white;
+	text-align: center;
+	place-items: center;
+	color: white;
 }
-
 
 .tab {
-    display: inline-block;
-    margin-bottom: 5%;
+	display: inline-block;
+	margin-bottom: 5%;
 }
 
 .grid-container {
-    --gap: 16px;
-    --num-cols: 2;
-    --num-rows: 2;
-    --row-height: auto;
-    --row-width: auto;
-
-    box-sizing: border-box;
-    padding: var(--gap);
-
-    display: inline-grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    gap: var(--gap);
-    /* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
+	--gap: 16px;
+	--num-cols: 2;
+	--num-rows: 2;
+	--row-height: auto;
+	--row-width: auto;
+	box-sizing: border-box;
+	padding: var(--gap);
+	display: inline-grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	gap: var(--gap);
+	/* hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties */
 }
 
 .grid-item {
-    display: grid;
-    place-items: center;
+	display: grid;
+	place-items: center;
 }
 
 @media all and (max-width: 1250px) {
-    .grid-container {
-        --num-cols: 1;
-        --num-rows: 4;
-    }
+	.grid-container {
+		--num-cols: 1;
+		--num-rows: 4;
+	}
 
-    .grid-item img {
-        width: 80%;
-        height: auto;
-    }
-    /* Kolonner per rad i grid på topical page reduseres når browser er under 1250px bred. Kode hentet fra https://stackoverflow.com/questions/71870656/css-grid-columns-according-to-screensize */
+	.grid-item img {
+		width: 80%;
+		height: auto;
+	}
+
+	/* Kolonner per rad i grid på topical page reduseres når browser er under 1250px bred. Kode hentet fra https://stackoverflow.com/questions/71870656/css-grid-columns-according-to-screensize */
 }
 
-.topical_img1{
-    border-radius: 20%;
-    vertical-align: middle;
+.topical_img1 {
+	border-radius: 20%;
+	vertical-align: middle;
 }
 
-.banner{
-    width: auto;
-    height: 100%;
-    position: center;
-    text-align: center;
-    color:white;
-    letter-spacing: 5px;
-    line-height: 2;
-    font-size: 15pt;
-    margin: 5%;
-    /* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
+.banner {
+	width: auto;
+	height: 100%;
+	position: center;
+	text-align: center;
+	color: white;
+	letter-spacing: 5px;
+	line-height: 2;
+	font-size: 15pt;
+	margin: 5%;
+	/* hentet fra https://stackoverflow.com/questions/46001412/positioning-text-over-scalable-image */
 }
 
-.button-container{
-    display: flex;  
-    justify-content: center;  
-    align-items: center;
-    width: auto;
-    margin: 100px;
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	margin: 100px;
 }
 
 button {
-    vertical-align: center;
-    border: 0.16em solid white;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 16px 32px;
-    text-align: center;
-    display: inline-block;
-    margin: auto;
-    cursor: pointer;
-    border-radius: 12px;
-    table-layout: center;
+	vertical-align: center;
+	border: 0.16em solid white;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 16px 32px;
+	text-align: center;
+	display: inline-block;
+	margin: auto;
+	cursor: pointer;
+	border-radius: 12px;
+	table-layout: center;
 }
 
 button:hover {
-    color: grey;
-    border-color: grey;
-    transition: .5s;
+	color: grey;
+	border-color: grey;
+	transition: .5s;
 }
 
 button a {
-    color: white;
-    font-size: 300%;
-    text-transform: uppercase;
-    text-decoration: none;
+	color: white;
+	font-size: 300%;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .topical {
-    color: white;
+	color: white;
 }
 
 .topical a {
-    color: white;
+	color: white;
 }
 
-.topical p{
-    margin-bottom: 0;
+.topical p {
+	margin-bottom: 0;
 }
 
 .reservasjoner {
-    text-align: center;
-    color: white;
-    margin: 5%;
+	text-align: center;
+	color: white;
+	margin: 5%;
 }
 
 .reservasjoner a {
-    color: inherit;
+	color: inherit;
 }
 
-.accessibility{
-    color: white;
-    margin-left: 10%;
-    margin-right: 10%;
+.accessibility {
+	color: white;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 /* Følgende "input" delen av koden er tatt fra https://www.w3schools.com/howto/howto_css_contact_form.asp og går ut på pynte boksene til reservasjonskjemaet til nettsiden som er for da farge, størrelse og posisjon*/
-input[type=text], select, textarea {
-    width: 50%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    font-family: "Montserrat";
-  }
-  
-  input[type=submit] {
-    background-color: white;
-    color: black;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=sumbit]:hover {
-    background-color: grey;
-  }
+input[type=text],
+select,
+textarea {
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-family: "Montserrat";
+}
 
-  input[type=date]{
-        width: 50%;
-        padding: 12px; 
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px; 
-        margin-bottom: 16px;
-    }
+input[type=submit] {
+	background-color: white;
+	color: black;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=sumbit]:hover {
+	background-color: grey;
+}
+
+input[type=date] {
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
