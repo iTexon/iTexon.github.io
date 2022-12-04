@@ -341,6 +341,27 @@ p.kafe {
 	box-shadow: 1px 2px 10px 5px black;
 }
 
+@media (max-width: 800px) {
+    .foretter-item {
+        font-size: 80%;
+    }
+    .hovedretter-item {
+        font-size: 80%;
+    }
+    .desserter-item {
+        font-size: 80%;
+    }
+    .chef-item {
+        font-size: 80%;
+    }
+    .sjefen{
+        font-size: 80%;
+    }
+    .outside {
+        font-size: 80%;
+    }
+}
+
 .headerMenyTekst {
 	font-size: 25px;
 	font-style: italic;
